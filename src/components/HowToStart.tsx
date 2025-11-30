@@ -5,22 +5,22 @@ import { Terminal, UserPlus, Play } from 'lucide-react';
 const steps = [
     {
         icon: UserPlus,
-        title: "Sign Up",
-        description: "Create a Google Cloud account and sign up for the Antigravity preview waitlist.",
+        title: "サインアップ",
+        description: "Google Cloudアカウントを作成し、Antigravityプレビューのウェイトリストに登録します。",
         color: "text-green-400",
         bg: "bg-green-400/10"
     },
     {
         icon: Terminal,
-        title: "Install Prerequisites",
-        description: "Ensure you have VS Code and Node.js installed on your machine.",
+        title: "前提条件のインストール",
+        description: "VS CodeとNode.jsがマシンにインストールされていることを確認してください。",
         color: "text-orange-400",
         bg: "bg-orange-400/10"
     },
     {
         icon: Play,
-        title: "Start Coding",
-        description: "Launch Antigravity or install the Jules extension to begin your AI pair programming journey.",
+        title: "コーディング開始",
+        description: "Antigravityを起動するか、Jules拡張機能をインストールして、AIペアプログラミングの旅を始めましょう。",
         color: "text-pink-400",
         bg: "bg-pink-400/10"
     }
@@ -31,9 +31,9 @@ const HowToStart: React.FC = () => {
         <section id="start" className="py-24 bg-white/5">
             <div className="container mx-auto px-4">
                 <div className="text-center mb-16">
-                    <h2 className="text-3xl md:text-5xl font-bold mb-4">How to Start</h2>
+                    <h2 className="text-3xl md:text-5xl font-bold mb-4">始め方</h2>
                     <p className="text-muted-foreground max-w-2xl mx-auto">
-                        Ready to build with AI? Here is how to get started with these tools.
+                        AIで開発を始める準備はできましたか？ツール導入の手順はこちらです。
                     </p>
                 </div>
 
@@ -57,7 +57,7 @@ const HowToStart: React.FC = () => {
 
                                 {/* Screenshot Placeholder */}
                                 <div className="aspect-video rounded-lg bg-black/40 border border-white/5 flex items-center justify-center">
-                                    <span className="text-xs text-muted-foreground/50">Screenshot Placeholder</span>
+                                    <span className="text-xs text-muted-foreground/50">スクリーンショット（プレースホルダー）</span>
                                 </div>
                             </div>
                         </motion.div>

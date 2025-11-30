@@ -13,7 +13,7 @@ const ExperienceReport: React.FC = () => {
                         viewport={{ once: true }}
                         className="text-3xl md:text-5xl font-bold mb-4"
                     >
-                        The Experience Report
+                        開発体験記
                     </motion.h2>
                     <motion.p
                         initial={{ opacity: 0, y: 20 }}
@@ -22,7 +22,7 @@ const ExperienceReport: React.FC = () => {
                         transition={{ delay: 0.1 }}
                         className="text-muted-foreground max-w-2xl mx-auto"
                     >
-                        From zero Electron experience to a polished desktop app.
+                        Electron経験ゼロから、洗練されたデスクトップアプリ完成まで。
                     </motion.p>
                 </div>
 
@@ -38,12 +38,12 @@ const ExperienceReport: React.FC = () => {
                             <div className="p-3 rounded-full bg-red-500/20 text-red-400">
                                 <AlertTriangle className="w-6 h-6" />
                             </div>
-                            <h3 className="text-2xl font-bold">The Challenge</h3>
+                            <h3 className="text-2xl font-bold">課題</h3>
                         </div>
                         <p className="text-lg text-muted-foreground leading-relaxed">
-                            The goal was to build <strong>Duplicate Picture Detector</strong>, a desktop application to manage photo libraries.
-                            However, I had <span className="text-white font-semibold">no prior experience with Electron</span>.
-                            The complexity of setting up a desktop environment, handling file systems, and ensuring cross-platform compatibility was daunting.
+                            目標は写真ライブラリを整理するデスクトップアプリ <strong>Duplicate Picture Detector</strong> を作ることでした。
+                            しかし、私には <span className="text-white font-semibold">Electronの経験が全くありませんでした</span>。
+                            デスクトップ環境の構築、ファイルシステムの操作、クロスプラットフォーム互換性の確保など、複雑な課題が山積みでした。
                         </p>
                     </motion.div>
 
@@ -55,19 +55,19 @@ const ExperienceReport: React.FC = () => {
                             viewport={{ once: true }}
                             className="bg-white/5 border border-white/10 rounded-2xl p-8"
                         >
-                            <h4 className="text-xl font-bold mb-4 text-blue-400">Experience with Jules</h4>
+                            <h4 className="text-xl font-bold mb-4 text-blue-400">Julesでの体験</h4>
                             <p className="text-muted-foreground mb-4">
-                                While powerful, Jules proved challenging for a beginner.
+                                強力ですが、初心者には少しハードルが高かったです。
                             </p>
                             <ul className="space-y-2 text-sm text-muted-foreground">
                                 <li className="flex items-start gap-2">
-                                    <span className="text-red-400">×</span> Required reading complex error logs.
+                                    <span className="text-red-400">×</span> 複雑なエラーログを読み解く必要があった。
                                 </li>
                                 <li className="flex items-start gap-2">
-                                    <span className="text-red-400">×</span> Needed manual PR management.
+                                    <span className="text-red-400">×</span> 手動でのPR管理が必要だった。
                                 </li>
                                 <li className="flex items-start gap-2">
-                                    <span className="text-red-400">×</span> High friction for rapid iteration.
+                                    <span className="text-red-400">×</span> 高速なイテレーションには少し摩擦があった。
                                 </li>
                             </ul>
                         </motion.div>
@@ -81,19 +81,19 @@ const ExperienceReport: React.FC = () => {
                             <div className="absolute top-0 right-0 p-4 opacity-10">
                                 <PenTool className="w-24 h-24" />
                             </div>
-                            <h4 className="text-xl font-bold mb-4 text-purple-400">Experience with Antigravity</h4>
+                            <h4 className="text-xl font-bold mb-4 text-purple-400">Antigravityでの体験</h4>
                             <p className="text-muted-foreground mb-4">
-                                Antigravity was a game-changer, especially for design and workflow.
+                                Antigravityは、特にデザインとワークフローにおいて革新的でした。
                             </p>
                             <ul className="space-y-2 text-sm text-muted-foreground">
                                 <li className="flex items-start gap-2">
-                                    <span className="text-green-400">✓</span> <strong className="text-white">Magnificent Design Skill</strong>: Created a beautiful UI effortlessly.
+                                    <span className="text-green-400">✓</span> <strong className="text-white">素晴らしいデザインスキル</strong>: 美しいUIを努力なしに作成できました。
                                 </li>
                                 <li className="flex items-start gap-2">
-                                    <span className="text-green-400">✓</span> <strong className="text-white">Implementation Plan</strong>: Allowed highlighting specific lines to communicate context clearly.
+                                    <span className="text-green-400">✓</span> <strong className="text-white">実装計画機能</strong>: 特定の行をハイライトして、コンテキストを明確に伝えることができました。
                                 </li>
                                 <li className="flex items-start gap-2">
-                                    <span className="text-green-400">✓</span> Seamless "Agentic" workflow.
+                                    <span className="text-green-400">✓</span> シームレスな「エージェンティック」ワークフロー。
                                 </li>
                             </ul>
                         </motion.div>
@@ -110,11 +110,11 @@ const ExperienceReport: React.FC = () => {
                             <div className="p-3 rounded-full bg-green-500/20 text-green-400">
                                 <CheckCircle className="w-6 h-6" />
                             </div>
-                            <h3 className="text-2xl font-bold">The Outcome</h3>
+                            <h3 className="text-2xl font-bold">成果</h3>
                         </div>
                         <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                            Despite the initial lack of experience, the application was successfully built with a premium look and feel.
-                            Key features like <strong>HEIC support</strong>, <strong>Safe Deletion (trash)</strong>, and a <strong>Smart UI</strong> were implemented efficiently.
+                            当初の経験不足にもかかわらず、プレミアムなルック＆フィールのアプリを完成させることができました。
+                            <strong>HEICサポート</strong>、<strong>安全な削除（ゴミ箱）</strong>、<strong>スマートなUI</strong>などの主要機能も効率的に実装されました。
                         </p>
 
                         <div className="flex flex-col md:flex-row gap-4">
@@ -124,7 +124,7 @@ const ExperienceReport: React.FC = () => {
                                     <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform">
                                         <Video className="w-6 h-6 text-white" />
                                     </div>
-                                    <span className="text-sm text-muted-foreground">Watch Demo Video</span>
+                                    <span className="text-sm text-muted-foreground">デモビデオを見る</span>
                                 </div>
                             </div>
 
@@ -132,7 +132,7 @@ const ExperienceReport: React.FC = () => {
                             <div className="flex-1 aspect-video bg-black/40 rounded-xl border border-white/10 flex items-center justify-center">
                                 <div className="text-center">
                                     <Layers className="w-8 h-8 text-muted-foreground mx-auto mb-2" />
-                                    <span className="text-xs text-muted-foreground">Workflow Infographic</span>
+                                    <span className="text-xs text-muted-foreground">ワークフロー図</span>
                                 </div>
                             </div>
                         </div>

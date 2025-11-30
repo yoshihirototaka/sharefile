@@ -19,9 +19,9 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                     </div>
 
                     <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-muted-foreground">
-                        <a href="#agents" className="hover:text-foreground transition-colors">Agents</a>
-                        <a href="#start" className="hover:text-foreground transition-colors">How to Start</a>
-                        <a href="#report" className="hover:text-foreground transition-colors">Experience Report</a>
+                        <a href="#agents" className="hover:text-foreground transition-colors">エージェント</a>
+                        <a href="#start" className="hover:text-foreground transition-colors">始め方</a>
+                        <a href="#report" className="hover:text-foreground transition-colors">体験記</a>
                     </nav>
 
                     <div className="flex items-center gap-4">
@@ -30,7 +30,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                             target="_blank"
                             rel="noopener noreferrer"
                             className="p-2 hover:bg-white/5 rounded-full transition-colors"
-                            aria-label="View on GitHub"
+                            aria-label="GitHubで表示"
                         >
                             <Github className="w-5 h-5" />
                         </a>
@@ -46,8 +46,8 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             {/* Footer */}
             <footer className="border-t border-white/10 bg-black/20 py-8 mt-20">
                 <div className="container mx-auto px-4 text-center text-muted-foreground text-sm">
-                    <p>© {new Date().getFullYear()} Duplicate Picture Detector Experience Report.</p>
-                    <p className="mt-2">Built with Vite, React, Tailwind, and AI Agents.</p>
+                    <p>© {new Date().getFullYear()} Duplicate Picture Detector 開発体験記</p>
+                    <p className="mt-2">Vite, React, Tailwind, そして AIエージェントで構築。</p>
                 </div>
             </footer>
         </div>

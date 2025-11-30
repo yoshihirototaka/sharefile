@@ -7,9 +7,9 @@ const AgentsIntro: React.FC = () => {
         <section id="agents" className="py-24 relative overflow-hidden">
             <div className="container mx-auto px-4">
                 <div className="text-center mb-16">
-                    <h2 className="text-3xl md:text-5xl font-bold mb-4">Meet the Agents</h2>
+                    <h2 className="text-3xl md:text-5xl font-bold mb-4">エージェント紹介</h2>
                     <p className="text-muted-foreground max-w-2xl mx-auto">
-                        The AI powerhouses behind the development of Duplicate Picture Detector.
+                        Duplicate Picture Detector開発を支えたAIの強力なパートナーたち。
                     </p>
                 </div>
 
@@ -25,24 +25,24 @@ const AgentsIntro: React.FC = () => {
                             <Code className="w-6 h-6" />
                         </div>
                         <h3 className="text-2xl font-bold mb-2">Jules</h3>
-                        <p className="text-sm text-blue-400 mb-6">The Coding Specialist</p>
+                        <p className="text-sm text-blue-400 mb-6">コーディングのスペシャリスト</p>
                         <p className="text-muted-foreground mb-8">
-                            Google's AI coding agent designed for complex logic and GitHub integration.
+                            複雑なロジックとGitHub統合のために設計されたGoogleのAIコーディングエージェント。
                         </p>
 
                         <div className="space-y-4">
                             <div className="flex items-start gap-3">
                                 <DollarSign className="w-5 h-5 text-blue-400 mt-1" />
                                 <div>
-                                    <h4 className="font-semibold text-sm">Pricing</h4>
-                                    <p className="text-sm text-muted-foreground">Free tier available. Pro plan at ~$20/mo.</p>
+                                    <h4 className="font-semibold text-sm">価格</h4>
+                                    <p className="text-sm text-muted-foreground">無料枠あり。Proプランは約$20/月。</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3">
                                 <Shield className="w-5 h-5 text-blue-400 mt-1" />
                                 <div>
-                                    <h4 className="font-semibold text-sm">Privacy</h4>
-                                    <p className="text-sm text-muted-foreground">Private by default. No training on private code.</p>
+                                    <h4 className="font-semibold text-sm">プライバシー</h4>
+                                    <p className="text-sm text-muted-foreground">デフォルトでプライベート。プライベートコードでの学習は行われません。</p>
                                 </div>
                             </div>
                         </div>
@@ -59,24 +59,24 @@ const AgentsIntro: React.FC = () => {
                             <Brain className="w-6 h-6" />
                         </div>
                         <h3 className="text-2xl font-bold mb-2">Antigravity</h3>
-                        <p className="text-sm text-purple-400 mb-6">The Agentic IDE</p>
+                        <p className="text-sm text-purple-400 mb-6">エージェンティックIDE</p>
                         <p className="text-muted-foreground mb-8">
-                            An agent-first development platform with superior design capabilities and context awareness.
+                            優れたデザイン能力とコンテキスト認識を持つ、エージェントファーストの開発プラットフォーム。
                         </p>
 
                         <div className="space-y-4">
                             <div className="flex items-start gap-3">
                                 <Zap className="w-5 h-5 text-purple-400 mt-1" />
                                 <div>
-                                    <h4 className="font-semibold text-sm">Pricing</h4>
-                                    <p className="text-sm text-muted-foreground">Currently Free Public Preview (Freemium expected).</p>
+                                    <h4 className="font-semibold text-sm">価格</h4>
+                                    <p className="text-sm text-muted-foreground">現在無料パブリックプレビュー中（将来的にフリーミアム予定）。</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3">
                                 <Shield className="w-5 h-5 text-purple-400 mt-1" />
                                 <div>
-                                    <h4 className="font-semibold text-sm">Privacy</h4>
-                                    <p className="text-sm text-muted-foreground">Privacy policy in place. Opt-out options for training.</p>
+                                    <h4 className="font-semibold text-sm">プライバシー</h4>
+                                    <p className="text-sm text-muted-foreground">プライバシーポリシーあり。学習へのオプトアウトオプションあり。</p>
                                 </div>
                             </div>
                         </div>
@@ -86,8 +86,8 @@ const AgentsIntro: React.FC = () => {
                 {/* Comparison Infographic Placeholder */}
                 <div className="mt-16 max-w-4xl mx-auto p-1 rounded-2xl bg-gradient-to-r from-blue-500/20 to-purple-500/20">
                     <div className="bg-background/80 backdrop-blur-sm rounded-xl p-8 text-center min-h-[300px] flex flex-col items-center justify-center">
-                        <p className="text-muted-foreground font-mono">Comparison Infographic Placeholder</p>
-                        <p className="text-xs text-muted-foreground/50 mt-2">(Jules vs Antigravity Visuals)</p>
+                        <p className="text-muted-foreground font-mono">比較インフォグラフィック（プレースホルダー）</p>
+                        <p className="text-xs text-muted-foreground/50 mt-2">（Jules vs Antigravity ビジュアル）</p>
                     </div>
                 </div>
             </div>
