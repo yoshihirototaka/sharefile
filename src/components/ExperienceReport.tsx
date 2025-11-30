@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { AlertTriangle, CheckCircle, PenTool, Layers, Video } from 'lucide-react';
+import { AlertTriangle, CheckCircle, PenTool, Video } from 'lucide-react';
 
 const ExperienceReport: React.FC = () => {
     return (
@@ -118,22 +118,27 @@ const ExperienceReport: React.FC = () => {
                         </p>
 
                         <div className="flex flex-col md:flex-row gap-4">
-                            {/* Demo Video Placeholder */}
-                            <div className="flex-1 aspect-video bg-black/40 rounded-xl border border-white/10 flex items-center justify-center group cursor-pointer hover:border-white/20 transition-colors">
-                                <div className="text-center">
-                                    <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform">
-                                        <Video className="w-6 h-6 text-white" />
+                            {/* Demo Video Thumbnail */}
+                            <div className="flex-1 relative aspect-video rounded-xl border border-white/10 overflow-hidden group cursor-pointer">
+                                <img
+                                    src="/assets/video-thumb.png"
+                                    alt="Demo Video Thumbnail"
+                                    className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-500"
+                                />
+                                <div className="absolute inset-0 flex items-center justify-center">
+                                    <div className="w-16 h-16 rounded-full bg-white/10 backdrop-blur-sm flex items-center justify-center group-hover:scale-110 transition-transform duration-300 border border-white/20">
+                                        <Video className="w-8 h-8 text-white fill-white" />
                                     </div>
-                                    <span className="text-sm text-muted-foreground">デモビデオを見る</span>
                                 </div>
                             </div>
 
-                            {/* Workflow Infographic Placeholder */}
-                            <div className="flex-1 aspect-video bg-black/40 rounded-xl border border-white/10 flex items-center justify-center">
-                                <div className="text-center">
-                                    <Layers className="w-8 h-8 text-muted-foreground mx-auto mb-2" />
-                                    <span className="text-xs text-muted-foreground">ワークフロー図</span>
-                                </div>
+                            {/* Workflow Infographic */}
+                            <div className="flex-1 aspect-video rounded-xl border border-white/10 overflow-hidden bg-black/20">
+                                <img
+                                    src="/assets/workflow.png"
+                                    alt="Development Workflow"
+                                    className="w-full h-full object-cover"
+                                />
                             </div>
                         </div>
                     </motion.div>

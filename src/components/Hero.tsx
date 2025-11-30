@@ -68,14 +68,14 @@ const Hero: React.FC = () => {
                     initial={{ opacity: 0, scale: 0.95 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 1, delay: 0.8 }}
-                    className="mt-16 relative mx-auto max-w-5xl rounded-xl border border-white/10 bg-white/5 backdrop-blur-sm aspect-video flex items-center justify-center overflow-hidden group"
+                    className="mt-16 relative mx-auto max-w-5xl rounded-xl border border-white/10 bg-white/5 backdrop-blur-sm shadow-2xl overflow-hidden group"
                 >
                     <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-purple-500/10 opacity-50 group-hover:opacity-100 transition-opacity" />
-                    <div className="text-center p-8">
-                        <Sparkles className="w-12 h-12 text-white/20 mx-auto mb-4" />
-                        <p className="text-white/40 font-mono text-sm">ヒーローインフォグラフィック（プレースホルダー）</p>
-                        <p className="text-white/20 text-xs mt-2">（AI生成エラー - レート制限）</p>
-                    </div>
+                    <img
+                        src="/assets/hero.png"
+                        alt="AI Pair Programming Hero"
+                        className="w-full h-auto object-cover opacity-90 group-hover:opacity-100 transition-opacity duration-700"
+                    />
                 </motion.div>
             </div>
         </section>

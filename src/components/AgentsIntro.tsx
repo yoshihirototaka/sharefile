@@ -83,12 +83,13 @@ const AgentsIntro: React.FC = () => {
                     </motion.div>
                 </div>
 
-                {/* Comparison Infographic Placeholder */}
-                <div className="mt-16 max-w-4xl mx-auto p-1 rounded-2xl bg-gradient-to-r from-blue-500/20 to-purple-500/20">
-                    <div className="bg-background/80 backdrop-blur-sm rounded-xl p-8 text-center min-h-[300px] flex flex-col items-center justify-center">
-                        <p className="text-muted-foreground font-mono">比較インフォグラフィック（プレースホルダー）</p>
-                        <p className="text-xs text-muted-foreground/50 mt-2">（Jules vs Antigravity ビジュアル）</p>
-                    </div>
+                {/* Comparison Infographic */}
+                <div className="mt-16 max-w-4xl mx-auto rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
+                    <img
+                        src="/assets/comparison.png"
+                        alt="Jules vs Antigravity Comparison"
+                        className="w-full h-auto"
+                    />
                 </div>
             </div>
         </section>
