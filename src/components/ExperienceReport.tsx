@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { AlertTriangle, CheckCircle, PenTool, Video } from 'lucide-react';
+import { AlertTriangle, CheckCircle, PenTool } from 'lucide-react';
 
 const ExperienceReport: React.FC = () => {
     return (
@@ -118,18 +118,16 @@ const ExperienceReport: React.FC = () => {
                         </p>
 
                         <div className="flex flex-col md:flex-row gap-4">
-                            {/* Demo Video Thumbnail */}
-                            <div className="flex-1 relative aspect-video rounded-xl border border-white/10 overflow-hidden group cursor-pointer">
-                                <img
-                                    src="/sharefile/assets/video-thumb.png"
-                                    alt="Demo Video Thumbnail"
-                                    className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-500"
-                                />
-                                <div className="absolute inset-0 flex items-center justify-center">
-                                    <div className="w-16 h-16 rounded-full bg-white/10 backdrop-blur-sm flex items-center justify-center group-hover:scale-110 transition-transform duration-300 border border-white/20">
-                                        <Video className="w-8 h-8 text-white fill-white" />
-                                    </div>
-                                </div>
+                            {/* Demo Video */}
+                            <div className="flex-1 relative aspect-video rounded-xl border border-white/10 overflow-hidden group bg-black">
+                                <video
+                                    src="/sharefile/assets/demo-video.mp4"
+                                    poster="/sharefile/assets/video-thumb.png"
+                                    controls
+                                    className="w-full h-full object-cover"
+                                >
+                                    Your browser does not support the video tag.
+                                </video>
                             </div>
 
                             {/* Workflow Infographic */}
