@@ -7,6 +7,18 @@ const FullReport: React.FC = () => {
         <article className="max-w-4xl mx-auto px-4 py-12 space-y-16 text-slate-200 leading-relaxed">
             {/* 1. Header */}
             <header className="text-center space-y-6">
+                <motion.div
+                    initial={{ opacity: 0, scale: 0.95 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ duration: 0.5 }}
+                    className="rounded-2xl overflow-hidden shadow-2xl mb-8 border border-slate-700/50"
+                >
+                    <img
+                        src="/sharefile/assets/hero.png"
+                        alt="AI Agents organizing photos"
+                        className="w-full h-[300px] md:h-[400px] object-cover"
+                    />
+                </motion.div>
                 <motion.h1
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
