@@ -86,7 +86,7 @@ const AgentsIntro: React.FC = () => {
                 {/* Comparison Infographic */}
                 <div className="mt-16 max-w-4xl mx-auto rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
                     <img
-                        src="/assets/comparison.png"
+                        src="/sharefile/assets/comparison.png"
                         alt="Jules vs Antigravity Comparison"
                         className="w-full h-auto"
                     />

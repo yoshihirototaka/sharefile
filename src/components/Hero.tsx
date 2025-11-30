@@ -63,7 +63,6 @@ const Hero: React.FC = () => {
                     </a>
                 </motion.div>
 
-                {/* Placeholder for Hero Image */}
                 <motion.div
                     initial={{ opacity: 0, scale: 0.95 }}
                     animate={{ opacity: 1, scale: 1 }}
@@ -72,7 +71,7 @@ const Hero: React.FC = () => {
                 >
                     <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-purple-500/10 opacity-50 group-hover:opacity-100 transition-opacity" />
                     <img
-                        src="/assets/hero.png"
+                        src="/sharefile/assets/hero.png"
                         alt="AI Pair Programming Hero"
                         className="w-full h-auto object-cover opacity-90 group-hover:opacity-100 transition-opacity duration-700"
                     />

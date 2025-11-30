@@ -121,7 +121,7 @@ const ExperienceReport: React.FC = () => {
                             {/* Demo Video Thumbnail */}
                             <div className="flex-1 relative aspect-video rounded-xl border border-white/10 overflow-hidden group cursor-pointer">
                                 <img
-                                    src="/assets/video-thumb.png"
+                                    src="/sharefile/assets/video-thumb.png"
                                     alt="Demo Video Thumbnail"
                                     className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-500"
                                 />
@@ -135,7 +135,7 @@ const ExperienceReport: React.FC = () => {
                             {/* Workflow Infographic */}
                             <div className="flex-1 aspect-video rounded-xl border border-white/10 overflow-hidden bg-black/20">
                                 <img
-                                    src="/assets/workflow.png"
+                                    src="/sharefile/assets/workflow.png"
                                     alt="Development Workflow"
                                     className="w-full h-full object-cover"
                                 />
